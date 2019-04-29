@@ -8,7 +8,7 @@ try:
         print("Writing saved")
 except:
      print("")
-     print("Error unable to save to your computer")
+     print("Error unable to save data to your computer")
      print("")
     
 
