@@ -7,8 +7,4 @@ try:
         out.write('\n'.join(data))
         print("Writing saved")
 except:
-     print("")
-     print("Error unable to save data to your computer")
-     print("")
-    
-
+     print("Unable to save data to your computer")
