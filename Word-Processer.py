@@ -10,12 +10,7 @@ while Writing:
     Textinput = input("")
     data=[Textinput]
 
-    if "(savefile)" in Textinput:
-            with open("Writting_file.txt", "a") as out_file:
-                out_file.write('\n'.join(data))
-                print("Writing saved")
-
-    if "(save)" in Textinput:
+    if "(save)" or "(savefile)" or "(savetext)" in Textinput:
             with open("Writting_file.txt", "a") as out_file:
                 out_file.write('\n'.join(data))
                 print("Writing saved")
