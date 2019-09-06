@@ -1,21 +1,22 @@
-#Some instruction
+#Some instruction in using this high tech piece of software
+print("")
 print("After writing Enter (savefile) to save text to a new file")
 print("Type (save) to save to that existing file, or type (exit) to exit")
 print("")
-#Text saving portion
+#Text writting snd saving portion
 Writing = True
 
 while Writing:
-    Textinput = input(">>>")
+    Textinput = input("")
     data=[Textinput]
 
     if "(savefile)" in Textinput:
-            with open("Writting", "w") as out_file:
+            with open("Writting_file.txt", "a") as out_file:
                 out_file.write('\n'.join(data))
                 print("Writing saved")
 
     if "(save)" in Textinput:
-            with open("Writting", "w") as out_file:
+            with open("Writting_file.txt", "a") as out_file:
                 out_file.write('\n'.join(data))
                 print("Writing saved")
         
