@@ -10,7 +10,7 @@ Writing = True
 
 while Writing:
     Textinput = input(">")
-    data=[Textinput]
+    data = (Textinput)
 #Some fancy stuff for writting text to files amoung other stuff 
     if "(save)" in Textinput:
         Save_text = Textinput.replace("(save)", "")
