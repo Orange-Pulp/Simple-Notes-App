@@ -16,13 +16,13 @@ while Writing:
     if "(save)" in Textinput:
         Save_text = Textinput.replace("(save)", "") # This removes the "(save)" so that it won't appear in the save file
         if os.path.exists("Writting file.txt"): # This allows the program to append the save file, so that it doesn't open a new file every time you save.
-            with open("Writting file.txt", "a") as file:
+            with open("Notes.txt", "a") as file:
                 file.write(Save_text)
-                print("Writting saved")
+                print("Notes saved")
         else:
-            with open("Writting file.txt", "w") as file:
+            with open("Notes.txt", "w") as file:
                 file.write(Save_text)
-                print("Writing saved")
+                print("Notes saved")
 
     if "(exit)" in Textinput:
         Writting = False 
