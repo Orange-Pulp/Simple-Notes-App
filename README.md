@@ -1,2 +1,2 @@
-# Note-Taker-App
+# Termnal-Note-Taker-App
 
