@@ -1,2 +1,2 @@
-# Termnal-Note-Taker-App
+# Terminal-Note-Taker-App
 
